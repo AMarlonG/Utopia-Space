@@ -56,3 +56,48 @@ h1 {
     line-height: 1.15;
     margin-block: 1.5rem;
 }
+
+.intro-text {
+    font-size: var(--step-1);
+    line-height: 1.35;
+}
+
+h2 {
+    font-size: var(--step-2);
+}
+
+section {
+    margin-top: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.units-grid {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-m);
+    gap: 2rem;
+}
+
+.unit1 {
+    width: var(--space-s);
+    aspect-ratio: 1 / 1;
+}
+
+.unit2 {
+    width: var(--space-m);
+    aspect-ratio: 1 / 1;
+}
+
+.unit3 {
+    width: var(--space-l);
+    aspect-ratio: 1 / 1;
+}
+
+.unit4 {
+    width: var(--space-xl);
+    aspect-ratio: 1 / 1;
+}
