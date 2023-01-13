@@ -1,0 +1,31 @@
+
+:root {
+    --space-s: clamp(1.00rem, calc(0.89rem + 0.56vw), 1.38rem);
+    --space-m: clamp(1.50rem, calc(1.33rem + 0.83vw), 2.06rem);
+    --space-l: clamp(2.00rem, calc(1.78rem + 1.11vw), 2.75rem);
+    --space-xl: clamp(3.00rem, calc(2.67rem + 1.67vw), 4.13rem);
+    --space-2xl: clamp(4.00rem, calc(3.56rem + 2.22vw), 5.50rem);
+    --space-3xl: clamp(6.00rem, calc(5.33rem + 3.33vw), 8.25rem);
+
+    /* One-up pairs */
+    --space-s-m: clamp(1.00rem, calc(0.69rem + 1.57vw), 2.06rem);
+    --space-m-l: clamp(1.50rem, calc(1.13rem + 1.85vw), 2.75rem);
+    --space-l-xl: clamp(2.00rem, calc(1.37rem + 3.15vw), 4.13rem);
+    --space-xl-2xl: clamp(3.00rem, calc(2.26rem + 3.70vw), 5.50rem);
+    --space-2xl-3xl: clamp(4.00rem, calc(2.74rem + 6.30vw), 8.25rem);
+
+    /* Custom pairs */
+    --space-s-3xl: clamp(1.00rem, calc(-1.15rem + 10.74vw), 8.25rem);
+}
+
+/* Font calculations */
+:root {
+    --step--2: clamp(0.64rem, calc(0.60rem + 0.20vw), 0.77rem);
+    --step--1: clamp(0.80rem, calc(0.73rem + 0.34vw), 1.03rem);
+    --step-0: clamp(1.00rem, calc(0.89rem + 0.56vw), 1.38rem);
+    --step-1: clamp(1.25rem, calc(1.08rem + 0.86vw), 1.83rem);
+    --step-2: clamp(1.56rem, calc(1.30rem + 1.30vw), 2.44rem);
+    --step-3: clamp(1.95rem, calc(1.57rem + 1.93vw), 3.26rem);
+    --step-4: clamp(2.44rem, calc(1.88rem + 2.81vw), 4.34rem);
+    --step-5: clamp(3.05rem, calc(2.24rem + 4.05vw), 5.79rem);
+}
