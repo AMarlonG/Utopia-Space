@@ -76,32 +76,35 @@ li {
 
 .units-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: repeat(4, auto);
     gap: var(--space-m);
-    gap: 2rem;
+    margin-top: 2rem;
+    
 }
 
 .units-grid > * {
     background-color: bisque;
+    border: solid 1px black
+    
 }
 
 .unit1 {
-    width: var(--space-s);
+    width: var(--space-l);
     aspect-ratio: 1 / 1;
+    
 }
 
 .unit2 {
-    width: var(--space-m);
+    width: var(--space-xl);
     aspect-ratio: 1 / 1;
 }
 
 .unit3 {
-    width: var(--space-l);
+    width: var(--space-2xl);
     aspect-ratio: 1 / 1;
 }
 
 .unit4 {
-    width: var(--space-xl);
+    width: var(--space-3xl);
     aspect-ratio: 1 / 1;
 }
