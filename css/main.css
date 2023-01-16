@@ -74,18 +74,22 @@ li {
     list-style-type: none;
 }
 
+.resize {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
 .units-grid {
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: var(--space-m);
-    margin-top: 2rem;
-    
+    margin-block: 2rem;
+    place-items: center;
 }
 
 .units-grid > * {
     background-color: bisque;
-    border: solid 1px black
-    
+    border: solid 1px black;
 }
 
 .unit1 {
@@ -108,3 +112,4 @@ li {
     width: var(--space-3xl);
     aspect-ratio: 1 / 1;
 }
+
