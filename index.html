@@ -19,25 +19,23 @@
 
     <section class="scaling">
         <h2>Scaling fluidity</h2>
-        <p>As a starting point for fluid space, Utopia has calculated different spacial values which scales within it's own size. These four boxes is sized large, x-large, xx-large, xxx-large. The gap between is set to medium.</p>
+        <p>As a starting point for fluid space, Utopia has calculated different spacial values which scales within it's own size. These two boxes is sized large and xxx-large.</p>
         <p class="resize">Resize the browser window to observe the transition.</p>
         <div class="units">
             <ul class="units-grid">
                 <li class="unit1"></li>
                 <li class="unit2"></li>
-                <li class="unit3"></li>
-                <li class="unit4"></li>
             </ul>
         </div>
-        <p>These sizes can be customized and used in any way needed to support the content, for example transition between xxx-large and small with <code>minmax()</code>. This gives flexibility and variation, and challenges designers to maximize the contents potential.</p>
+        <p>These sizes can be customized and used in any way needed to support the content, for example transition between xxx-large and small with <code>minmax()</code>. They can also be used for different white spaces like <code>gap:</code>. This gives flexibility and variation, and challenges designers to maximize the contents potential.</p>
     </section>
 
     <section class="grid-scale">
         <h2>Grid</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt vel qui consectetur animi eius
-            distinctio ex officia rerum itaque.</p>
+        <p>The same principles can also be used when setting the specifics of a Grid structure. What is being calculated is the width of the main container, the gaps, and a number of columns. Be aware that the columns calculated is not definite, and can be customized for each grid, as you see underneath with one grid of six columns and one of four. </p>
+        <p class="resize">Resize the browser window to observe the transition.</p>
         <div class="grid-container">
-            <ul class="grid">
+            <ul class="grid1">
                 <li>Column 1</li>
                 <li>Column 2</li>
                 <li>Column 3</li>
@@ -45,12 +43,24 @@
                 <li>Column 5</li>
                 <li>Column 6</li>
             </ul>
+            <ul class="grid2">
+                <li>Column 1</li>
+                <li>Column 2</li>
+                <li>Column 3</li>
+                <li>Column 4</li>
+            </ul>
         </div>
+        <p>For all practical purposes what is being fluidly transitioned is the container and the gaps. If your content needs a set amount of equal sized columns, then relying on the column calculations are useful. If the content needs more flexibility, these calculations are a good starting point for a container.
+        </p>
     </section>
     
     <section class="outro">
         <h2>Design and development</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet vero ipsa quas at dolorum natus quae laboriosam fuga sint! Ratione corrupti quam quae dolores velit impedit obcaecati nisi fuga!</p>
+        <p>Space, grids, flex boxes, white space, layout ...</p>
+        <p>Where to start?</p>
+        <p>Discussions on layout and the best use of space on the web is a never-ending discussion, and a discussion that will never be finished or "won". The reason being it all comes down to the content and the desired user experience.</p>
+        <p>But the tools to play with space in HTML and CSS is much better then earlier, and with the Utopia calculations for space, content and "the feel" of the web can be front and center, instead of endless discussion of pixel perfection, breakingpoints and other limitations.</p>
+        <a href="https://gridless.design/">This article by Donnie D'Amato</a> is informative on how designers and developers can work better together on layout, and all the complicated spacial calculations behind this site can be found on <a href="https://utopia.fyi/">the Utopia website.</a></p>
     </section>
 
     </main>
