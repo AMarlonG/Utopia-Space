@@ -32,3 +32,10 @@
     --step-4: clamp(2.44rem, calc(1.88rem + 2.81vw), 4.34rem);
     --step-5: clamp(3.05rem, calc(2.24rem + 4.05vw), 5.79rem);
 }
+
+/* Grid calculations */
+:root {
+    --grid-max-width: 59.13rem;
+    --grid-gutter: var(--space-3xs-s, clamp(0.25rem, calc(-0.31rem + 2.86vw), 1.38rem));
+    --grid-columns: 6;
+}
