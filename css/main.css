@@ -113,3 +113,23 @@ li {
     aspect-ratio: 1 / 1;
 }
 
+.grid-container {
+    max-width: var(--grid-max-width);
+    padding-inline: var(--grid-gutter);
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--grid-gutter);
+    margin-top: 2rem;
+}
+
+li {
+    background-color: bisque;
+    border: solid 1px black;
+    place-self: center;
+    padding: 0.3em;
+}
+
